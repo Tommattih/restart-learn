@@ -4,9 +4,11 @@ body {
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
 h1 {
-    color: #ffa600a6; 
+    color: wheat; 
     background-color: lightyellow;
     margin-bottom: 10px;
+    text-shadow: 1px 2px 5px darkolivegreen;
+    box-shadow: 0 2px 2px goldenrod;
 }
 img {
     width: 75px;
@@ -33,6 +35,11 @@ div p {
     padding: 2px 50px 4px;
     border-radius: 0 0 5px 5px;
     border: solid 1px whitesmoke;
+}
+h2 {
+    background-color: whitesmoke;
+    text-shadow: 1px 2px burlywood;
+    box-shadow: 0 2px 2px burlywood;
 }
 #einstein {
     width: 200px;
