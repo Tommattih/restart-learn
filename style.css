@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: lightgray;
     text-align: center;
@@ -6,25 +10,30 @@ body {
 h1 {
     color: wheat; 
     background-color: lightyellow;
-    margin-bottom: 10px;
+    margin: 10px;
     text-shadow: 1px 2px 5px darkolivegreen;
     box-shadow: 0 2px 2px goldenrod;
 }
 img {
     width: 75px;
     border-radius: 0 200px 200px 200px;
-    margin: 5px 10px 5px;
+    margin: 5px;
+    border: solid 1px whitesmoke;
 }
 .externa {
     display: grid;
     justify-items: center;
+    border-bottom: solid 2px whitesmoke;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 .andarTopo, .andarMeio, .andarBase {
     display: flex;
     flex-direction: row;
 }
-div p {
+nav h3 {
     background-color: lightblue;
+    border: solid 1px whitesmoke;
 
     color: whitesmoke;
     text-shadow: 2px 1px lightslategray;
@@ -34,12 +43,12 @@ div p {
     margin-bottom: 5px;
     padding: 2px 50px 4px;
     border-radius: 0 0 5px 5px;
-    border: solid 1px whitesmoke;
 }
 h2 {
     background-color: whitesmoke;
     text-shadow: 1px 2px burlywood;
     box-shadow: 0 2px 2px burlywood;
+    margin: 15px 30px 5px;
 }
 #einstein {
     width: 200px;
