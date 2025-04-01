@@ -14,8 +14,11 @@ h1 {
     text-shadow: 1px 2px 5px darkolivegreen;
     box-shadow: 0 2px 2px goldenrod;
 }
+.box img {
+    width: 100px;
+    height: 100px;
+}
 img {
-    width: 75px;
     border-radius: 0 200px 200px 200px;
     margin: 5px;
     border: solid 1px whitesmoke;
@@ -44,6 +47,59 @@ nav h3 {
     padding: 2px 50px 4px;
     border-radius: 0 0 5px 5px;
 }
+.mid{
+    width: 35vw;
+}
+.botton {
+    width: 60vw;
+}
+
+/* render images*/
+#dev {
+    background-image: url("./logo-dev-github-20.png");
+}
+#dev:hover {
+    background-image: url("./logo-dev-github-70-large.png");
+}
+#gastronome {
+    background-image: url("./logo-chef.png");
+}
+#gastronome:hover {
+    background-image: url("./logo-chef-move.png");
+}
+#bartender {
+    background-image: url("./logo-bartender.png");
+}
+#bartender:hover {
+    background-image: url("./logo-bartender-move.png");
+}
+#waiter {
+    background-image: url("./logo-waiter.png");
+}
+#waiter:hover {
+    background-image: url("./logo-waiter-move.png");
+}
+#mind {
+    background-image: url("./logo-mind.png");
+}
+#mind:hover {
+    background-image: url("./logo-mind-move.png");
+}
+#design {
+    background-image: url("./logo-design.png");
+}
+#design:hover {
+    background-image: url("./logo-design-move.png");
+}
+.cover {
+    transition: ease-in-out .5s;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+/* footer*/
 h2 {
     background-color: whitesmoke;
     text-shadow: 1px 2px burlywood;
@@ -58,8 +114,4 @@ h2 {
     margin: 15px 20px;
     padding: 10px 15px;
     text-align: justify;
-}
-span {
-    display:flex;
-    flex-direction: column;
 }
