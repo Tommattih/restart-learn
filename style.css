@@ -15,8 +15,8 @@ h1 {
     box-shadow: 0 2px 2px goldenrod;
 }
 .box img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 img {
     border-radius: 0 200px 200px 200px;
@@ -92,7 +92,7 @@ nav h3 {
     background-image: url("./logo-design-move.png");
 }
 .cover {
-    transition: ease-in-out .5s;
+    transition: ease-in-out .3s;
 
     background-repeat: no-repeat;
     background-position: center;
