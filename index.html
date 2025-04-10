@@ -7,27 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Remember</h1>
+<div class="loader">Atualizando</div>
+<h1>Remember</h1>
     <nav class="externa box">
         <!-- turn 'div' block into 'section'-->
         <h3 class="top">Bio</h3>
-        <div class="andarTopo">
-            <a href="/"><img id="mind" class="cover" src=" " alt=""><br>BodyMindBuider</a>
-        </div>
-
-        <h3 class="mid">WEB</h3>
-        <div class="andarMeio box">
-            <a href="/"><img id="dev" class="cover" src=" " alt=""><br>dev</a>
-            <a href="/"><img id="design" class="cover" src=" " alt=""><br>design</a>
-        </div>
-
-        <h3 class="botton">A & B</h3>
-        <div class="andarBase box">
-            <a href="/"><img id="bartender" class="cover" src=" " alt=""><br>bartender</a>
-            <a href="/"><img id="gastronome" class="cover" src=" " alt=""><br>gastronome</a> <!--alt="tomate vestido de chef de cozinha"-->
-            <a href="/"><img id="waiter" class="cover" src=" " alt=""><br>waiter</a>
-        </div>
-    </nav>
+            <div class="andarTopo">
+                <a href="/"><img id="mind" class="cover" src=" " alt=""><br>BodyMindBuider</a>
+            </div>
+            
+                    <h3 class="mid">WEB</h3>
+            <div class="andarMeio box">
+                <a href="#dev"><img id="dev" class="cover" src=" " alt=""><br>dev</a>
+                <!-- links para paginas online
+                -->
+                <a href="/"><img id="design" class="cover" src=" " alt=""><br>design</a>
+            </div>
+            
+                    <h3 class="botton">A & B</h3>
+            <div class="andarBase box">
+                <a href="/"><img id="bartender" class="cover" src=" " alt=""><br>bartender</a>
+                <a href="/"><img id="gastronome" class="cover" src=" " alt=""><br>gastronome</a> <!--alt="tomate vestido de chef de cozinha"-->
+                <a href="/"><img id="waiter" class="cover" src=" " alt=""><br>waiter</a>
+            </div>
+        </nav>
 
     <footer>
         <h2>Fake content</h2>
@@ -35,9 +38,54 @@
         <figcaption>Albert Einstein</figcaption>
         <p class="loren">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo eaque, excepturi ipsum repudiandae reprehenderit ad accusamus vel assumenda deserunt expedita nostrum debitis. Sed dolore earum minima autem vel dolor!</p>
     </footer>
-    <!--
-        <button>Clica aqui</button>
-        <button>Desclica</button>
-    -->
+    <!--   section to use to create components    -->
+        <section id="dev" class="maximize">
+            <ul>
+                <li><a href="https://tommattih.github.io">
+                    <!-- <iframe src="https://tommattih.github.io" frameborder="2px"></iframe> -->
+                    <br>Github Main Page</a>
+                    <p>Short Description</p></li>
+                    
+                <li><a href="https://tommattih.github.io/pvsn">
+                    <!-- <iframe src="https://tommattih.github.io/pvsn" frameborder="0"></iframe> -->
+                    <br> PVSN Vanilla</a>
+                    <p>Short Description</p></li>
+                    
+                <li><a href="https://portal25.vercel.app/">
+                    <!-- <iframe src="https://portal25.vercel.app/" frameborder="0"></iframe> -->
+                    <br> PVSN VueJs</a>
+                    <p>Short Description</p></li>
+                    
+                <li><a href="https://tommattih.github.io/placar-de-volei/">
+                    <!-- <iframe src="https://tommattih.github.io/placar-de-volei/" frameborder="0"></iframe> -->
+                    <br> Voley Score Check</a>
+                    <p>Short Description</p></li>
+
+                <li><a href="https://tommattih.github.io/NLW_Heat_Origin/">
+                    <!-- <iframe src="https://tommattih.github.io/NLW_Heat_Origin/" frameborder="0"></iframe> -->
+                    <br> ID NLW Rocketseat</a>
+                    <p>Short Description</p></li>
+
+                <li><a class="cv" href="https://tommattih.github.io/cv/">
+                    <!-- <iframe src="https://tommattih.github.io/cv/" frameborder="0"></iframe> -->
+                    <br> CV By Kenzie Academy</a>
+                    <p>Short Description</p></li>
+
+                <li><a href="https://tommattih.github.io/LogProg/">
+                    <!-- <iframe src="https://tommattih.github.io/LogProg/" frameborder="0"></iframe> -->
+                    <br>Logic Exercises</a>
+                    <p>Short Description</p></li>
+                    
+                <li><a href="https://tommattih.github.io/NLW_6_Together_Origin/">
+                    <!-- <iframe src="https://tommattih.github.io/NLW_6_Together_Origin/" frameborder="0"></iframe> -->
+                    <br> NLW 6 Rocketseat</a>
+                <p>Short Description</p></li>
+
+                <li><a href=""></a>
+                <p>Short Description</p></li>
+            </ul>
+        </section>
+        <!-- think if I shoud use iframes or not -->
+         <!-- Use class for select the technologies that I use to build -->
 </body>
 </html>
