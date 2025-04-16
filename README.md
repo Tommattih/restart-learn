@@ -12,3 +12,4 @@ Creating habits
 - criando caminhos navegáveis e organizando seções e estudos
 - aplicando `position`
 - Mimo linktree pt. 1
+- Mimo linktree pt. 2 e estilos personalizados
