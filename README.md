@@ -8,3 +8,7 @@ Creating habits
 - Adicionando links de repositorios
 
 - use `https://css-loaders.com/factory/`
+
+- criando caminhos navegáveis e organizando seções e estudos
+- aplicando `position`
+- Mimo linktree pt. 1
