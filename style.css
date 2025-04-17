@@ -147,3 +147,47 @@ h2 {
   iframe:hover{
     display: block;
   }
+
+  /* é possível fazer isso com um for, alterando a cor de acordo com o nome usando DOM*/
+  .design {
+    background-color:whitesmoke;
+    height: 1.1em;
+    width: 8em;
+    margin: 0 auto;
+    border-radius: 0 0 30% 30%;
+  }
+  em {
+    display: inline-block;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px blue;
+    border-radius: 0 0 5px 5px;
+  }
+  em.color1 {
+    background-color: darkviolet;
+    height: 1.5em;
+  }
+  em.color2 {
+    background-color:crimson;
+    height: 2em;
+  }
+  em.color3 {
+    background-color: orange;
+    height: 3em;
+  }
+  em.color4 {
+    background-color:gold;
+    height: 4em;
+  }
+  em.color5 {
+    background-color: greenyellow;
+    height: 2.5em;
+  }
+  em.color6 {
+    background-color: lightskyblue;
+    height: 2em;
+  }
+  em.color7 {
+    background-color:dodgerblue;
+    height: 1.5em;
+  }
