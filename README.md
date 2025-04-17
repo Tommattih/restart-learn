@@ -1,5 +1,6 @@
 # restart-learn
-Creating habits 
+[Playground Preview](https://tommattih.github.io/restart-learn/)
+Creating habits
 
 - testando propriedades HTML e CSS, semânticas e estéticas.
 - refatorando e enxugando código
@@ -13,3 +14,6 @@ Creating habits
 - aplicando `position`
 - Mimo linktree pt. 1
 - Mimo linktree pt. 2 e estilos personalizados
+- Listando melhorias nos repositórios
+- Disponibilizando visualização online
+- Corrigindo caminhos dos links
