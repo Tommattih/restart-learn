@@ -4,6 +4,19 @@
     user-select: none;
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     text-align: center;
+    --dev: url("./logo-dev-github-20.png");
+    --dev-hello: url("./logo-dev-github-70-large.png");
+    --shake-right: url("./logo-bartender.png");
+    --shake-left: url("./logo-bartender-move.png");
+    --cooking: url("./logo-chef-move.png");
+    --cooking-move: url("./logo-chef.png");
+    --waiter-start: url("./logo-waiter.png");
+    --waiter-end: url("./logo-waiter-move.png");  
+    --mind: url("./logo-mind.png");
+    --mind-blow: url("./logo-mind-move.png");
+    --mind-blow-again: url("./logo-mind-move-again.png");
+    --design: url("./logo-design.png");
+    --design-idea: url("./logo-design-move.png");
 }
 body {
     background-color: lightgray;
@@ -56,42 +69,76 @@ nav h3 {
     width: 60vw;
 }
 
-/* render images*/
+/* render images*/ /* keyframes & animations*/
+#mind {
+    background-image: var(--mind);
+}
+#mind:hover {
+    background-image: var(--mind-blow);
+    animation: blow 3.3s infinite;
+}
+@keyframes blow {
+    0% {background-image: var(--mind);}
+    50% {background-image: var(--mind-blow);}
+    75% {background-image: var(--mind-blow-again);}
+    100% {background-image: var(--mind-blow);}
+}
 #dev {
-    background-image: url("./logo-dev-github-20.png");
+    background-image: var(--dev);
+    animation: hello-world 6s infinite;
 }
-#dev:hover {
-    background-image: url("./logo-dev-github-70-large.png");
+@keyframes hello-world {
+    0% {background-image:var(--dev);}
+    70% {background-image: var(--dev-hello);}
+    100% {background-image:var(--dev);}
+  }
+#design {
+    background-image: var(--design);
 }
-#gastronome {
-    background-image: url("./logo-chef.png");
+#design:hover {
+    background-image: var(--design-idea);
+    animation: create 2.4s infinite;
 }
-#gastronome:hover {
-    background-image: url("./logo-chef-move.png");
+@keyframes create {
+    0% {background-image:var(--design);}
+    60% {background-image: var(--design-idea);}
+    100% {background-image:var(--design);}
 }
 #bartender {
-    background-image: url("./logo-bartender.png");
+    background-image: var(--shake-right);
 }
 #bartender:hover {
     background-image: url("./logo-bartender-move.png");
+    animation: shake .3s infinite;
+}
+@keyframes shake {
+    0% {background-image:var(--shake-right);}
+    50% {background-image: var(--shake-left);}
+    100% {background-image:var(--shake-right);}
+}
+#gastronome {
+    background-image: var(--cooking);
+}
+#gastronome:hover {
+    background-image: var(--cooking-move);
+    animation: cooking 1.1s infinite;
+}
+@keyframes cooking {
+    0% {background-image:var(--cooking);}
+    70% {background-image: var(--cooking-move);}
+    100% {background-image:var(--cooking);}
 }
 #waiter {
-    background-image: url("./logo-waiter.png");
+    background-image: var(--waiter-start);
 }
 #waiter:hover {
-    background-image: url("./logo-waiter-move.png");
+    background-image: var(--waiter-end);
+    animation: service 3s infinite;
 }
-#mind {
-    background-image: url("./logo-mind.png");
-}
-#mind:hover {
-    background-image: url("./logo-mind-move.png");
-}
-#design {
-    background-image: url("./logo-design.png");
-}
-#design:hover {
-    background-image: url("./logo-design-move.png");
+@keyframes service {
+    0% {background-image: var(--waiter-start);}
+    50% {background-image: var(--waiter-end);}
+    100% {background-image: var(--waiter-start);}
 }
 .cover {
     transition: ease-in-out .45s;
@@ -131,7 +178,7 @@ h2 {
       var(--c) calc(4*100%/5) 50%,
       var(--c) calc(5*100%/5) 50%;
     background-size:calc(100%/6 + 1px) 50%;
-    animation: l19 1s infinite cubic-bezier(0.5,170,0.5,-170);
+    animation: l19 2.2s infinite cubic-bezier(0.5,170,0.5,-170);
   }
   @keyframes l19 {
       14.28% {background-position: calc(0*100%/5) 51%, calc(1*100%/5) 50%, calc(2*100%/5) 50%, calc(3*100%/5) 50%, calc(4*100%/5) 50%, calc(5*100%/5) 50%}
