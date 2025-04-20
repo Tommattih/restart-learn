@@ -17,3 +17,6 @@ Creating habits
 - Listando melhorias nos repositórios
 - Disponibilizando visualização online
 - Corrigindo caminhos dos links
+- Ajustando imagens
+- Criando animações com `@keyframes`
+- Criando variáveis para melhorar o controle das animações
