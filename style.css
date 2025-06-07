@@ -19,14 +19,18 @@
     --design-idea: url("./logo-design-move.png");
 }
 body {
-    background-color: lightgray;
+    background-color: darkkhaki;
 }
 h1 {
-    color: wheat; 
-    background-color: lightyellow;
-    margin: 10px;
-    text-shadow: 1px 2px 5px darkolivegreen;
-    box-shadow: 0 2px 2px goldenrod;
+    color: deepskyblue;
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-shadow: 0px 1px 2px darkgoldenrod;
+    box-shadow: 0px 5px 5px powderblue;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 0 0 20% 20%;
 }
 .box img {
     width: 120px;
@@ -198,13 +202,11 @@ h2 {
 
   /* é possível fazer isso com um for, alterando a cor de acordo com o nome usando DOM*/
   .design {
-    background-color:whitesmoke;
     height: 1.1em;
     width: 8em;
     margin: 0 auto;
     border-radius: 0 0 30% 30%;
-    box-shadow: 1px 5px 10px lightslategray;
-    margin-bottom: 3.5em;
+    margin-bottom: 2.5em;
   }
   em {
     display: inline-block;
